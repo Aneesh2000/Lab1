@@ -80,7 +80,7 @@ in nginx, make sure you allow arbitrary arguments (like /ruok?xyz=123).
 
 Your CLI will have 3 subcommand:
 
-post message [file-to-attach] \
+post message [file-to-attach] 
 
 if file-to-attach is given, it will be base64 encoded before sending to the server. \
 list [--starting id] [--count number] [--save-attachment]\
