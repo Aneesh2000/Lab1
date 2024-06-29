@@ -25,6 +25,7 @@ response:
 {
  "message-id": 2323
 }
+
 LIST MESSAGES:
 POST request to /messages/list
 request:
@@ -42,6 +43,7 @@ response:
 "attachment": "aSdlfkJ888oidfjwe+",
 "signature": "as/f32230FS+"
 }]
+
 CREATE USER:
 POST request to /user/create
 request:
@@ -62,6 +64,7 @@ GENERAL ERROR RESPONSE:
 {
  "error": "signature didn't match"
 }
+
 ```
 **Message signing**
 
